@@ -2,7 +2,13 @@
 
 This an extension for HTMX
 
-To use it apply it on element that you wish it to take effect
+To use it update your HTML template with
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/esc-blur-polyfill@1.0.0/esc-blur-polyfill.js"></script>
+```
+
+Then update element that you wish it to take effect
 
 ```html
 <input

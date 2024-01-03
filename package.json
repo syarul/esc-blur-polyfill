@@ -1,6 +1,6 @@
 {
   "name": "@syarul/esc-blur-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTMX extension to send extra parameter on blur event",
   "main": "esc-blur-polyfill.js",
   "scripts": {
