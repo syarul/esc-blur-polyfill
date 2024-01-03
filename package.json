@@ -1,0 +1,24 @@
+{
+  "name": "@syarul/esc-blur-polyfill",
+  "version": "1.0.0",
+  "description": "HTMX extension to send extra parameter on blur event",
+  "main": "esc-blur-polyfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/esc-blur-polyfill.git"
+  },
+  "keywords": [
+    "HTMX",
+    "HATEOS",
+    "the right way"
+  ],
+  "author": "Shahrul Nizam Selamat <hottincup@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/syarul/esc-blur-polyfill/issues"
+  },
+  "homepage": "https://github.com/syarul/esc-blur-polyfill#readme"
+}
