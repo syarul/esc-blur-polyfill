@@ -9,7 +9,9 @@
 			if (api.getAttributeValue(evt.detail.elt, "hx-ext") === extName) {
 				if (evt.detail && evt.detail.triggeringEvent) {
 					var esc = evt.detail.triggeringEvent.sourceCapabilities === null;
-					evt.detail.path = evt.detail.path + "&esc=" + esc;
+                    var url = new URL('http://0.0.0.0:1337/' + evt.detail.path);
+                    url.searchParams.set("esc", esc);
+                    evt.detail.path = url.toString().slice(20);
 				}
 			}
 		},
